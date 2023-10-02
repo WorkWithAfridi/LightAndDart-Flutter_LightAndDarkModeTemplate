@@ -8,3 +8,5 @@ sealed class ThemeEvent extends Equatable {
 }
 
 class ToogleTheme extends ThemeEvent {}
+
+class GetThemeState extends ThemeEvent {}
